@@ -5,54 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/css.css">
+    
+    
 </head>
 <body>
     <header>
-        <h2>Grandes ofertas en comederos</h2>
-        <ul>
-            <li>Español</li>
-            <li>$ARG</li>  
-        </ul>
-        <img src="img\Logo.png">
-        <ul>
-            <li>Categotias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contactanos</li>
-        </ul>
-    </header>
-    <main>
-        <div>
-            <img src="img\bowl-and-pet-daities-on-green-background 1.png">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
+        <div class="header-top-container" >
+            <p>Grandes ofertas en comederos</p>
+            <ul class="top-list">
+                <li>Español</li>
+                <li>$UY</li>  
+            </ul>
         </div>
-        <div>
+        
+        <nav class="nav-bar">
+            <img src="img\Logo.png">
+            <ul class="nav-list">
+                <li><img src="img\pawprint white.png" alt="paw">Categotias</li>
+                <li><img src="img\pawprint white.png" alt="paw">Pets</li>
+                <li><img src="img\pawprint white.png" alt="paw">Nosotros</li>
+                <li><img src="img\pawprint white.png" alt="paw">Contactanos</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="main-top-container">
+            <div class="main-top-data">
+                <a id="tenerte">¡Es un placer tenerte aquí!</a>
+                <p>¡Comederos en descuento!</p>
+                <input type="button" id="comederos-button" value="COMEDEROS">
+            </div>
+        </div>
+
+        <div class="main-mid-container">
             <img src="img\pawprint 1.png">
             <h2>Productos Destacados</h2>
             <span>Comederos</span>
             <span>Accesorios</span>
             <span>Comida</span>
         </div>
-        <div>
-            <img src="img\churrasquito.png">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-        </div>
-        <div>
-            <img src="img\comedero.png">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-        </div>
-        <div>
-            <img src="img\Huesito.png">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-        </div>
+       <section>
+            <div>
+                <img src="img\churrasquito.png">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </div>
+            
+            <div>
+                <img src="img\comedero.png">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </div>
+        
+            <div>
+                <img src="img\Huesito.png">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </div>
+        </section>
+
+        <form action="">
+            <p>Contáctanos</p>
+            <input type="text" value="Nombre y Apellido"><br>
+            <input type="email" value="Ingresá tu correo electrónico"><br>
+            <input type="tel" value="Telefono"> <br>
+            <input type="button" value="Resetear">
+            <input type="button" value="Enviar">
+        </form>
     </main>
+
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <div>
+
+        </div>
+
+        <div class="footer-data">
+          
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Localidad</h4>
+            <p>Calle - provincia</p>
+           
+            <i class="fa-regular fa-phone-volume"></i>
+            <h4>Teléfono</h4>
+            <p>Numero de telefono</p>
+
+            <i class="fa-regular fa-envelope"></i>
+            <h4>Correo Electrónico</h4>
+            <p>Dirección de correo</p>
+            
+        </div>
+        
+        <div class="footer-end">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
     </footer>
+
 </body>
 </html>
