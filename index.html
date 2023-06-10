@@ -21,7 +21,11 @@
         </div>
         
         <nav class="nav-bar">
-            <img src="img\Logo.png">
+            <div class="logo">
+                <img src="img/Cat.png" alt="cat">
+                <p><span>Front</span>Cat&Dog</p>
+                <img src="img\Dog.png" alt="dog">
+            </div>
             <ul class="nav-list">
                 <li><img src="img\pawprint white.png" alt="paw">Categotias</li>
                 <li><img src="img\pawprint white.png" alt="paw">Pets</li>
@@ -39,47 +43,53 @@
                 <input type="button" id="comederos-button" value="COMEDEROS">
             </div>
         </div>
-
-        <div class="main-mid-container">
+        
+        <div class="top-products">
             <img src="img\pawprint 1.png">
             <h2>Productos Destacados</h2>
             <span>Comederos</span>
             <span>Accesorios</span>
             <span>Comida</span>
         </div>
-       <section>
-            <div>
-                <img src="img\churrasquito.png">
+
+        <div class="mid-products">
+            <div class="product" id="juguete-churrasquito">
                 <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <span>$150</span>
             </div>
             
-            <div>
-                <img src="img\comedero.png">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+            <div class="product" id="comedero">
+                <p>Comedero para perro</p>
+                <span>$250</span>
             </div>
         
-            <div>
-                <img src="img\Huesito.png">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+            <div class="product" id="huesito">
+                <p>Juguete Huesito</p>
+                <span>$650</span>
             </div>
-        </section>
+        </div>
 
-        <form action="">
-            <p>Contáctanos</p>
-            <input type="text" value="Nombre y Apellido"><br>
-            <input type="email" value="Ingresá tu correo electrónico"><br>
-            <input type="tel" value="Telefono"> <br>
-            <input type="button" value="Resetear">
-            <input type="button" value="Enviar">
-        </form>
+        <div class="mid-form">
+            <form action="">
+                <p>Contáctanos</p>
+                <input type="text" value="Nombre y Apellido"><br>
+                <input type="email" value="Ingresá tu correo electrónico"><br>
+                <input type="tel" value="Telefono"> <br>
+                <div class="buttons-form">
+                    <input type="button" value="Resetear" id="resetear">
+                    <input type="button" value="Enviar" id="enviar">
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>
-        <div>
-
+        <div class="subscribe">
+            <p>Suscríbete para más novedades </p>
+            <form action="subscribe-form">
+                <input type="text" placeholder="Ingresá tu correo electronico" id="email-subscribe">
+                <input type="button" value="Suscribirme">
+            </form>
         </div>
 
         <div class="footer-data">

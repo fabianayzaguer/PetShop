@@ -8,64 +8,193 @@
 }
 
 body {
-    background-color:  #FBFAF6;;
+    background-color:  #ffffff;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.logo span {
+    color: #3C2313;
+}
+
+.logo img {
+    height: 20px;
+
 }
 
 .header-top-container {
     background-color: #222222;
     color: #F3F3F3;
     margin-top: 0px;
+    height: 20px;
+    padding: 0.2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-list {
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar {
     background-color: #F0A83E;
     list-style: none;
     color: #ffffff;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
 }
 
 .nav-list {
     list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
-.top-list {
-    list-style: none;
-}
+
 
 .main-top-container {
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: end;
 }
 
 .main-top-data {
-    position: absolute;
-    right: 10%;
-    top: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 #tenerte {
     background-color: #F3F3F3;
-    line-height: 100px;
+    color: #3C2313;
     border-radius: 5px;
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: 100px;
+    font-size: 300%;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.main-top-container p {
+    font-size: 30px;
+    color: #3C2313;
 }
 
 #comederos-button {
     background: #F0A83E;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #ffffff;
+    font-size: 28px;
     border: none;
-    width: 200px;
+    width: 250px;
     height: 90px;
+    margin: 20px 0;
 }
 
-.main-mid-container {
+.top-products{
     text-align: center;
+    width: 100%;
+    height: 250px;
+    font-size: 30px;
+    padding: 20px;
 }
+
+.top-products img {
+    height: 100px;
+}
+
+.top-products h2 {
+    font-size: 200%;
+    color: #3C2313;
+}
+
+.mid-products {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0 20%;
+}
+
+.product {
+    background-color: #FBFAF6 ;
+    height: 30vh;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    color: #3C2313;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.product span {
+    color: #F0A83E;
+}
+
+#juguete-churrasquito {background-image: url(../img/churrasquito.png);}
+#comedero {background-image: url(../img/comedero.png);}
+#huesito {background-image: url(../img/Huesito.png);}
+
+.mid-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+.mid-form input {
+    background-color: #3C2313;
+    color: #F3F3F3;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.buttons-form {
+    margin: 50px;
+}
+
+.buttons-form input{
+    width: 200px;
+    font-size: 20px;
+}
+
+#resetear {background-color:#8A8787;}
+#enviar {background-color: #F0A83E;}
 
 .footer-data {
     background: #3C2313;
